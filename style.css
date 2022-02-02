@@ -1,0 +1,53 @@
+body {
+    background-color: yellow;
+}
+
+h1 {
+    font-family: fantasy;
+    color: blue(38, 0, 255);
+    background-color: cornsilk;
+}
+
+#show_sketch {
+    float: right;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 1px 1px 38px maroon;
+    }
+    to {
+        box-shadow: 1px 1px 38px yellow;
+    }
+}
+
+p,
+span {
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+#score {
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+#time {
+    font-size: 35px;
+    float: right;
+    margin-right: 20px;
+}
+
+#sketch_name {
+    color: red;
+}
